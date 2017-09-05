@@ -1,7 +1,7 @@
 Finite State Machines Runner 
 ===================
 
-This is a work in progress.
+> This is a work in progress.
 
 It'll receive an FSM object and process the transition to its next state.
 
