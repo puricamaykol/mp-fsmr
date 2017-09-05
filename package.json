@@ -1,0 +1,21 @@
+{
+  "name": "mp-fsmc",
+  "version": "1.0.0",
+  "description": "Js Finite State Machine Container / Runner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-babel-minify": "^0.1.4",
+    "gulp-rename": "^1.2.2"
+  },
+  "keywords": [
+    "finit",
+    "state",
+    "machine"
+  ],
+  "author": "Maykol Purica <puricamaykol@gmail.com>",
+  "license": "ISC"
+}
