@@ -1,5 +1,5 @@
 {
-  "name": "mp-fsmc",
+  "name": "mp-fsmr",
   "version": "1.0.0",
   "description": "Js Finite State Machine Container / Runner",
   "main": "index.js",
