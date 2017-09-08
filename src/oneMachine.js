@@ -14,6 +14,10 @@ const invoiceFSM = () => {
 
 		 //done(error, currentState);
 	},
+	setCurrentState: (state, cb) => {
+		//Something async goin on here
+		done(null, "OK");
+	},
 	//This object contain properties regarding to the actual object
 	//It can be pass on initialization and overwritten in any action
 	//or OnStart method
@@ -31,8 +35,8 @@ const invoiceFSM = () => {
 				A set of name value pairs representing the actions
 				and the state to swtch into once the action is successfully performed
 			 */
-			{action1:'state2'},
-			{action1: 'state2'},
+			{action:'action1', nextState:'state2'},
+			{action:'action2', nextState:'state3'},
 
 		]	
 			
@@ -58,7 +62,9 @@ const invoiceFSM = () => {
 	 * @type {Object}
 	 */
 	actions: {
-		action1: (properties, currentState, done, ...params) => {}	
+		action1: (properties, currentState, done) => {
+
+		}	
 	}
 	},
 }
